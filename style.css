@@ -1,0 +1,186 @@
+body{
+    background-color: #f1ebe3;
+}
+
+button{
+    background-color: #f1ebe3;
+    border: none;
+    overflow: none;
+    font-family: sans-serif;
+    display: flex;
+    font-size: medium;
+    color: rgb(112, 107, 107);
+}
+
+.Products:hover{
+    background-color: #f1ebe3;
+    color: rgb(112, 107, 107);
+}
+
+.procontent {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 360px;
+    height: 270px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+
+.pcont img{
+    margin-left: 10px;
+    margin-top: 5px;
+    vertical-align: middle;
+}
+
+.pcont{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+a{
+    color: #000;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: small;
+}
+
+a:visited{
+    color: #000;
+}
+
+.procontent a:hover {
+    color: grey;
+}
+
+.drops:hover .procontent {
+    display: block;
+    margin-top: 4px;
+}
+
+.drops:hover .Products {background-color: #f1ebe3;}
+  
+dt{
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+dd{
+    color: rgb(112, 107, 107);
+}
+
+.drops{
+    display: inline-block;
+}
+
+.logo{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 150px;
+    margin-right: 80px;
+}
+
+.Products{
+    display: inline-block;
+    margin-left: 150px;
+}
+
+.Challenges{
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.Resources{
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.Other{
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.top{
+    margin-top: 40px;
+    
+}
+
+.sign{
+    display: inline-block;
+    margin-left: 220px;
+    margin-right: 50px;
+}
+
+.free{
+    display: inline-block;
+    margin-right: 30px;
+}
+
+#free{
+    background-color: #133416;
+    color: #f1ebe3;
+    font-family: sans-serif;
+    padding: 15px;
+    border-radius: 3px;
+    width: 130px;
+    height: 50px;
+}
+
+ .middle{
+    margin-top: 50px;
+}
+
+.middleLeft{
+    margin-left: 150px;
+}
+
+.about{
+    font-size: xx-large;
+    width: 700px;
+    height: 100%;
+    font-family: sans-serif;
+    font-weight: 900;
+    margin-bottom: -25px;
+}
+
+.middleRight{
+    margin-left: 200px;
+    
+}
+
+.middleRight img{
+    width: 350px;
+    height: 400px;
+}
+
+p{
+    color: #94928f;
+    font-family: sans-serif;
+    font-size: medium;
+    padding-top: 0px;
+}
+
+.rating{
+    padding-top: 20px;
+}
+
+.rating img{
+    width: 20px;
+    vertical-align: middle;
+}
+
+
+
+.infoot p{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.infoot img{
+    margin-right: 70px;
+    margin-left: 70px;
+}
